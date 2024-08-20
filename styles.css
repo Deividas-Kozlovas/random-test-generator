@@ -16,12 +16,13 @@ body, html {
     align-items: center;
 }
 
-.text-box {
+.box__text {
     font-size: 18px;
     margin-bottom: 20px;
+    width: 60%;
 }
 
-button.rotate {
+button.box__rotate {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
