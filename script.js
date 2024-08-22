@@ -11,10 +11,10 @@ document.addEventListener('DOMContentLoaded', () => {
             if(randomLoopCount > count){
                 const randomIndex = Math.floor(Math.random() * testList.length);
                 textBox.innerHTML = `<p>${testList[randomIndex]}</p>`;
+                setTimeout(() => {
+                    rotate(randomLoopCount, count + 1);
+                }, 20)
             }
-            setTimeout(() => {
-                rotate(randomLoopCount, count + 1);
-            }, 20)
         }
         rotate(randomLoopCount, count);
     });
