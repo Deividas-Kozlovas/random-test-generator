@@ -55,6 +55,7 @@ export const testList = [
   "Common Data Structures: Arrays, Stack, Queue, Set, Object, Map, Tree, Graph",
   "Recursion",
   "Indexes and References",
+
   // SQL
   "Structure of SQL Queries",
   "SQL Clauses",
@@ -74,6 +75,7 @@ export const testList = [
   "SQL Database Administration Tasks",
   "SQL Code Review and Best Practices",
   "SQL Query Tuning and Optimization Techniques (Indexing, Execution Plans)",
+
   // MongoDB
   "Understanding MongoDB Document Structure (JSON-like Documents)",
   "MongoDB Collections vs SQL Tables",
@@ -106,6 +108,7 @@ export const testList = [
   "Data Import/Export Using MongoDB Tools (mongoimport, mongoexport)",
   "Backup and Restore Strategies for MongoDB",
   "Query Optimization and Explain Plans in MongoDB",
+
   // Javascript
   "JavaScript",
   "Basic Syntax and Structure",
@@ -130,6 +133,7 @@ export const testList = [
   "JavaScript Frameworks and Libraries: React, Angular, Vue",
   "TypeScript for Static Typing in JavaScript",
   "Node.js for Server-Side JavaScript",
+
   //Typescript
   "Basic TypeScript Syntax and Structure",
   "Type Annotations and Type Inference",
@@ -172,28 +176,6 @@ export const testList = [
   "Angular Lazy Loading and Module Splitting",
   "Angular Custom Validators",
 
-  //   //Next.js
-  // "Now we're going to play a game where you test me on the basic setup and structure of a Next.js project. You will give me one question at a time, and I will answer it. You will tell me if I’m right or wrong and why. Your questions can be anything related to setting up a Next.js project, understanding its folder structure, and configuring it with code examples.",
-  // "Now we're going to play a game where you test me on routing in Next.js. You will give me one question at a time, and I will answer it. You will tell me if I’m right or wrong and why. Your questions can be anything related to dynamic routing, nested routes, and using the Link component in Next.js with code examples.",
-  // "Now we're going to play a game where you test me on creating and using API routes in Next.js. You will give me one question at a time, and I will answer it. You will tell me if I’m right or wrong and why. Your questions can be anything related to creating API endpoints, handling requests, and using them within a Next.js application with code examples.",
-  // "Now we're going to play a game where you test me on server-side rendering (SSR) in Next.js. You will give me one question at a time, and I will answer it. You will tell me if I’m right or wrong and why. Your questions can be anything related to implementing SSR, using getServerSideProps, and understanding the benefits of SSR in Next.js with code examples.",
-  // "Now we're going to play a game where you test me on static site generation (SSG) in Next.js. You will give me one question at a time, and I will answer it. You will tell me if I’m right or wrong and why. Your questions can be anything related to implementing SSG, using getStaticProps and getStaticPaths, and understanding the benefits of SSG in Next.js with code examples.",
-  // "Now we're going to play a game where you test me on client-side rendering (CSR) in Next.js. You will give me one question at a time, and I will answer it. You will tell me if I’m right or wrong and why. Your questions can be anything related to fetching data on the client-side, using useEffect, and integrating CSR in a Next.js application with code examples.",
-  // "Now we're going to play a game where you test me on data fetching strategies in Next.js. You will give me one question at a time, and I will answer it. You will tell me if I’m right or wrong and why. Your questions can be anything related to using getServerSideProps, getStaticProps, getStaticPaths, and client-side data fetching with code examples.",
-  // "Now we're going to play a game where you test me on image optimization in Next.js. You will give me one question at a time, and I will answer it. You will tell me if I’m right or wrong and why. Your questions can be anything related to using the next/image component, optimizing image loading, and configuring image settings with code examples.",
-  // "Now we're going to play a game where you test me on using middleware in Next.js API routes. You will give me one question at a time, and I will answer it. You will tell me if I’m right or wrong and why. Your questions can be anything related to creating and applying middleware functions to API routes in Next.js with code examples.",
-  // "Now we're going to play a game where you test me on using TypeScript in Next.js. You will give me one question at a time, and I will answer it. You will tell me if I’m right or wrong and why. Your questions can be anything related to setting up TypeScript in a Next.js project, typing components and pages, and using TypeScript with data fetching methods with code examples.",
-  // "Now we're going to play a game where you test me on implementing authentication in Next.js. You will give me one question at a time, and I will answer it. You will tell me if I’m right or wrong and why. Your questions can be anything related to setting up authentication, using providers like NextAuth.js, and securing pages with code examples.",
-  // "Now we're going to play a game where you test me on integrating external APIs in Next.js. You will give me one question at a time, and I will answer it. You will tell me if I’m right or wrong and why. Your questions can be anything related to fetching data from external APIs, handling responses, and displaying data in a Next.js application with code examples.",
-  // "Now we're going to play a game where you test me on implementing internationalization (i18n) in Next.js. You will give me one question at a time, and I will answer it. You will tell me if I’m right or wrong and why. Your questions can be anything related to configuring i18n, handling translations, and setting up locale detection with code examples.",
-  // "Now we're going to play a game where you test me on creating custom error pages in Next.js. You will give me one question at a time, and I will answer it. You will tell me if I’m right or wrong and why. Your questions can be anything related to creating custom 404, 500, and other error pages, and handling errors gracefully in Next.js with code examples.",
-  // "Now we're going to play a game where you test me on advanced middleware in Next.js. You will give me one question at a time, and I will answer it. You will tell me if I’m right or wrong and why. Your questions can be anything related to creating and configuring custom middleware, handling authentication, and applying middleware to specific routes with code examples.",
-  // "Now we're going to play a game where you test me on deploying a Next.js application. You will give me one question at a time, and I will answer it. You will tell me if I’m right or wrong and why. Your questions can be anything related to deploying Next.js apps on platforms like Vercel, configuring environment variables, and optimizing performance for production with code examples.",
-  // "Now we're going to play a game where you test me on using Redux (or other state management libraries) with Next.js. You will give me one question at a time, and I will answer it. You will tell me if I’m right or wrong and why. Your questions can be anything related to integrating Redux, managing global state, and handling SSR with state management in Next.js with code examples.",
-  // "Now we're going to play a game where you test me on implementing SEO in Next.js. You will give me one question at a time, and I will answer it. You will tell me if I’m right or wrong and why. Your questions can be anything related to optimizing pages for SEO, using next/head, and improving the search engine visibility of a Next.js application with code examples.",
-  // "Now we're going to play a game where you test me on setting up a custom server in Next.js. You will give me one question at a time, and I will answer it. You will tell me if I’m right or wrong and why. Your questions can be anything related to creating and configuring a custom server using Express or other frameworks with Next.js with code examples.",
-  // "Now we're going to play a game where you test me on customizing the Document and App components in Next.js. You will give me one question at a time, and I will answer it. You will tell me if I’m right or wrong and why. Your questions can be anything related to overriding the default Document and App components, and implementing custom behaviors in a Next.js application with code examples.",
-
   // Git
   "General Git Concepts",
   "Version Control Basics",
@@ -203,21 +185,6 @@ export const testList = [
   "Remote Repositories",
   "Git Workflows",
   "Essential Git Commands",
-  // Laravel
-  // "Now where going to play a game where you test me on Laravel MVC architecture. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  // "Now where going to play a game where you test me on Laravel routing. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  // "Now where going to play a game where you test me on Laravel Middleware. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  // "Now where going to play a game where you test me on Laravel ORM. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  // "Now where going to play a game where you test me on Laravel database migrations and seeders. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  // "Now where going to play a game where you test me on Laravel authentication, authorization. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  // "Now where going to play a game where you test me on Laravel validation form request. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  // "Now where going to play a game where you test me on Laravel error handling and logging. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  // "Now where going to play a game where you test me on Laravel directory structure and conventions. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  // "Now where going to play a game where you test me on key Laravel configurations and their purposes. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  // "Now where going to play a game where you test me on Laravel artisan commands. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  // "Now where going to play a game where you test me on Laravel eloquent relationships. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  // "Now where going to play a game where you test me on Laravel testing. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  // "Now where going to play a game where you test me on Laravel api development. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
 
   // React
   "React JSX and TSX",
@@ -236,6 +203,7 @@ export const testList = [
   "Common Event Handling Patterns in React",
   "Best Practices for Using Keys in Lists for Efficient Rendering",
   "React Asynchronous Programming",
+
   // //Node.js
   "Basic setup and structure of a Node.js application",
   "Node.js modules and differences between require and import",
@@ -261,6 +229,7 @@ export const testList = [
   "Using streams and pipelines in Node.js",
   "Node.js event loop and asynchronous programming",
   "Building CLI tools with Node.js",
+
   // //Express.js
   "Basics of setting up an Express.js application",
   "Express.js routing",
@@ -282,62 +251,4 @@ export const testList = [
   "Using GraphQL with Express.js",
   "Express.js logging and debugging",
   "Customizing Express.js configurations",
-
-  // Programming math
-  // "Now where going to play a game where you test me on Variables and Expressions: Understanding how to use and manipulate variables.. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  // "Now where going to play a game where you test me on Equations and Formulas: Solving for unknowns and using formulas to compute values. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  // "Now where going to play a game where you test me on Functions: Understanding how to use and create functions.. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  // "Now where going to play a game where you test me on Truth Tables: Understanding how to construct and interpret truth tables.. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  // "Now where going to play a game where you test me on Set Theory: Understanding sets, subsets, intersections, unions, and complements.. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  // "Now where going to play a game where you test me on Combinatorics: Basics of permutations and combinations, which are useful in algorithm design.. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  // "Now where going to play a game where you test me on Graph Theory: Understanding nodes, edges, and common algorithms like depth-first search (DFS) and breadth-first search (BFS).. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  // "Now where going to play a game where you test me on Prime Numbers: Useful in cryptography and algorithms.. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  // "Now where going to play a game where you test me on Greatest Common Divisor (GCD) and Least Common Multiple (LCM): Important in various computational problems.. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  // "Now where going to play a game where you test me on Coordinate Geometry: Understanding points, lines, and planes.. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  // "Now where going to play a game where you test me on Basic Shapes and Properties: Understanding properties of shapes, which can be useful in game development and graphics programming.. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  // "Now where going to play a game where you test me on Descriptive Statistics: Mean, median, mode, and standard deviation.. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  // "Now where going to play a game where you test me on Probability Theory: Basic probability, conditional probability, and Bayes’ theorem.. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  // "Now where going to play a game where you test me on Distributions: Understanding normal, binomial, and other distributions, which are useful in data science and machine learning.. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  // "Now where going to play a game where you test me on Vectors and Matrices: Operations with vectors and matrices, useful in graphics programming and machine learning.. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  // "Now where going to play a game where you test me on Eigenvalues and Eigenvectors: Important in advanced algorithms and data analysis.. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  // "Now where going to play a game where you test me on Differentiation and Integration: Useful in physics engines and simulations.. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  // "Now where going to play a game where you test me on Optimization: Understanding how to find minima and maxima, which is useful in machine learning algorithms.. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  // "Now where going to play a game where you test me on Designing efficient algorithms for sorting, searching, and other common tasks.. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  // "Now where going to play a game where you test me on Understanding arrays, linked lists, stacks, queues, trees, and hash tables.. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  // "Now where going to play a game where you test me on Knowledge of data structures is crucial for efficient programming.. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  // "Now where going to play a game where you test me on Linear algebra and statistics are fundamental for understanding and developing machine learning models.. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  // "Now where going to play a game where you test me on Geometry and linear algebra are essential for rendering graphics and creating game physics. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  // "Now where going to play a game where you test me on Number theory and discrete mathematics are key in designing secure systems.. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-
-  // // Regular math
-  // "Now where going to play a game where you test me on Fractions. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  // "Now where going to play a game where you test me on Linear Algebra. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  // "Now where going to play a game where you test me on Calculus. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  // "Now where going to play a game where you test me on Probability and Statistics. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  // "Now where going to play a game where you test me on Discrete Mathematics. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  // "Now where going to play a game where you test me on Pre-Algebra. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  // "Now where going to play a game where you test me on Geometry. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-
-  //   //Linux
-  //   "Now where going to play a game where you test me on linux comand line. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  //   "Now where going to play a game where you test me on linux fyle system structure. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  //   "Now where going to play a game where you test me on linux fyle tipes. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  //   "Now where going to play a game where you test me on linux user and group management. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  //   "Now where going to play a game where you test me on lunux premision and ownership. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  //   "Now where going to play a game where you test me on linux package management. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  //   "Now where going to play a game where you test me on linux networking basics. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  //   "Now where going to play a game where you test me on linux shell scripting. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  //   "Now where going to play a game where you test me on linux system monitoring and performance. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  //   "Now where going to play a game where you test me on linux processes and job scheduling. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  //   "Now where going to play a game where you test me on linux securiy basics. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  //   "Now where going to play a game where you test me on linux advanced topics kernel and modules, file systems. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  //   "Now where going to play a game where you test me on linux comand working with files and catalogs. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  //   "Now where going to play a game where you test me on linux comands helpers. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  //   "Now where going to play a game where you test me on linux vim norma, insert, command modes. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  //   "Now where going to play a game where you test me on linux vim basic comands. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  //   "Now where going to play a game where you test me on linux vim navigation shortcuts. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  //   "Now where going to play a game where you test me on linux vim serching and replacing. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  //   "Now where going to play a game where you test me on linux vim visual mode. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  //   "Now where going to play a game where you test me on linux vim costumization. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
-  //   "Now where going to play a game where you test me on linux vim working with buffers and windows. You will give me on question at a time and I will answer it you will tell if I’m write or wrong and why. Your questions can be anything related to it and with code examples",
 ];
